@@ -2,6 +2,8 @@ import React from "react";
 import Modal from "./components/Modal";
 import PopUp from "./components/PopUp";
 import './App.css';
+import BoxDrag from "./components/BoxDrag";
+import ListDrag from "./components/ListDrag";
 
 
 
@@ -13,6 +15,9 @@ function App() {
     <Modal/>
     <h2>Abrir ventana superior</h2>
    <PopUp/>
+   <h2>Abrir modal dinamico</h2>
+   <ListDrag/>
+    <BoxDrag/>
     </div>
   );
 }
